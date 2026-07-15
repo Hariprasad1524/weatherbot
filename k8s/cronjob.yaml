@@ -14,7 +14,7 @@ spec:
         spec:
           containers:
             - name: weatherbot
-              image: <ACR_NAME>.azurecr.io/weatherbot:latest
+              image: myuniqueacrname.azurecr.io/weatherbot:latest
               command: ["python", "main.py"]
               envFrom:
                 - secretRef:
